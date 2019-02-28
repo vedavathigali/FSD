@@ -1,0 +1,37 @@
+<html>
+<head>
+<title>mypage</title>
+<link rel="stylesheet" href="styl.css"></link>
+<script type="text/javascript" src="table1.js"></script>
+</head>
+<body>
+    <div id="add"></div>
+    <div id="additems" style="text-align:center">
+<!--<form action="table.html" method="POST" onsubmit="addRowTable()">-->
+    <input type="text"  placeholder="Productname" id="uname"  class="input" required/><br>
+    <select name="category" id="category">
+        <option>--select--</option>
+        <option>automobiles</option>
+        <option>food</option>
+        <option>clothing</option>
+    </select> <br>
+    <input type="text" id="price" placeholder="price" class="input"></br>
+    <input type="number" id="skv" placeholder="skv" class="input" /><br>
+    <input type="number" id="quantity" placeholder="quantity"class="input"/><br>
+    <input type="button" value="save" onclick="addRowTable()" />
+</div>
+<table id="table">
+    <th>Name</th>
+    <th>Price</th>
+    <th>category</th>
+    <th>skv</th>
+    <th>quantity</th>
+
+    
+</table>
+<div id="div">
+
+</div>
+
+</body>
+</html>
